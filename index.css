@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Meows;
+  src: url(Meows.ttf);
+}
+
+html {
+  background-color: skyblue;
+  background-image: url("images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#name {
+  font-family: Meows;
+  font-size: 4em;
+  height: 50px;
+  margin: 20px 0 20px;
+  text-align: center;
+}
+
+#year {
+  font-size: 2em;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#slides div img {
+  display: block;
+  max-height: calc(100vh - 90px - 40px - 50px);
+  max-width: 95vw;
+}

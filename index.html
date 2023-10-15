@@ -1,6 +1,50 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="tiny-slider.css">
+    <script src="tiny-slider.js"></script>
+    <script type="module">
+      tns({
+        container: '#slides',
+        items: 1,
+        slideBy: "page",
+        center: true,
+        gutter: 16,
+        autoHeight: false,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        autoplayHoverPause: true,
+        autoplayTimeout: 5000,
+        autoWidth: true,
+        controls: false,
+        nav: false,
+      });
+    </script>
+  </head>
   <body>
-  <h1>Hello World</h1>
+    <div id="name">Rocky</div>
+    <div id="year">2004 - 2023</div>
+    <div id="slides">
+      <div><img src="images/01.jpg" /></div>
+      <div><img src="images/02.jpg" /></div>
+      <div><img src="images/03.jpg" /></div>
+      <div><img src="images/04.jpg" /></div>
+      <div><img src="images/05.jpg" /></div>
+      <div><img src="images/06.jpg" /></div>
+      <div><img src="images/07.jpg" /></div>
+      <div><img src="images/08.jpg" /></div>
+      <div><img src="images/09.jpg" /></div>
+      <div><img src="images/10.jpg" /></div>
+      <div><img src="images/11.jpg" /></div>
+      <div><img src="images/12.jpg" /></div>
+      <div><img src="images/13.jpg" /></div>
+      <div><img src="images/14.jpg" /></div>
+      <div><img src="images/15.jpg" /></div>
+      <div><img src="images/16.jpg" /></div>
+      <div><img src="images/17.jpg" /></div>
+      <div><img src="images/18.jpg" /></div>
+      <div><img src="images/19.jpg" /></div>
+    </div>
   </body>
 </html>
